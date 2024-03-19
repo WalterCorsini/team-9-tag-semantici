@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentazione</title>
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h2>Introduzione ad i tag semantici</h2>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#firstsection">Differenza tra tag semantici e non</a></li>
+                    <li><a href="#secondsection">Compatibilità e accessibilità dei tag</a></li>
+                    <li><a href="#fifthsection">Principali tag semantici</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- first section -->
+        <section class="hero">
+            <div class="first-section-content w-text">
+                <h1>TAG SEMANTICI</h1>
+                <p class="hero-p">Prima di approcciarci sull’argomento , abbiamo bisogno di capire cos’è <abbr>HTML</abbr>. <br><abbr>HTML</abbr>(Hyper Text Markup Language)</p>
+                <p class="hero-p">Non è un linguaggio di programmazione ma un linguaggio di markup.
+                    <dfn>HTML</dfn> non è un linguaggio di programmazione, perchè non contiene della logica per creare dinamicità al nostro sito.
+                    Possiamo inserire contenuti all’interno della nostra pagina, creando il suo scheletro tramite i TAG.
+                    
+                </p>
+            </div>
+        </section>
+        <!-- /first section -->
+
+        <div class="wave">
+            <img src="./img/wave.svg" alt="">
+        </div>
+
+        <!-- second section -->
+        <section class="second-section">
+            <div class="second-row container">
+                <div class="second-section-lcol">
+                    <img class="first-item" src="https://www.musaformazione.it/wp-content/uploads/2021/08/introduzione-HTML.jpg" alt="">
+                </div>
+                <div class="second-section-rcol">
+                    <h2>Ma cos’è un TAG?</h2>
+                    <ul class="hero-ul">
+                        <li> Il TAG come accennato prima,serve ad evidenziare il contenuto al suo interno e a dargli un significato.</li>
+                        <li>I TAG vengono spesso accompagnati da degli ATTRIBUTI ,che assegnano delle proprietà modellando il nostro documento.</li>
+                    </ul>
+                </div>
+            </div>  
+        </section>
+        <!-- /second section -->
+
+        <div class="wave rotated" id="firstsection">
+            <img src="./img/wave.svg" alt="">
+        </div>
+
+        <!-- third section -->
+        <section class="third-section">
+            <div class="third-row container">
+                <div class="third-section-lcol">
+                    <h2>Differenza tra tag semantici e non</h2>
+                    <p>Andiamo ad esplorare dei nuovi tag introdotti in html5, con il solo ed unico scopo di evidenziare il valore semantico del contenuto: sono i cosiddetti tag semantici. Questi tag non hanno una differenza nella resa visiva del contenuto che abbracciano, ma vanno a conferirne un significato ben preciso, che fa mutare proprio il senso di ciò che stiamo scrivendo.</p>
+                    <p>I tag semantici agiscono sul sema, sul senso, sul significato che il motore di ricerca scansionerà per andare ad indicizzare la pagina web; in altre parole, un tag semantico è un tag che descrive al motore di ricerca – ma non solo! Pensiamo sempre, ad esempio, all'ear reader! – il contenuto di quella parte di pagina html, facilitandogli di molto la vita!</p>
+                </div>
+                <div class="third-section-rcol">
+                    <img class="second-item" src="https://alchemica.agency/wp-content/uploads/2024/01/Cose-lHTML-Semantico-scaled-1-1536x825.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- /third section -->
+
+        <div class="wave" id="secondsection">
+            <img src="./img/wave.svg" alt="">
+        </div>
+
+        <!-- fourth section -->
+        <section class="fourth-section">
+            <div class="fourth-row container">
+                <div class="fourth-section-lcol">
+                    <img src="https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support.png" alt="">
+                    <img src="./img/strike.png" class="pt-50" alt="">
+                    <img src="./img/center.png" alt="">
+                </div>
+                <div class="fourth-section-rcol">
+                    <h2>Compatibilità e accessibilità dei tag</h2>
+                    <p class="section-p">I tag semantici sono essenziali per l'accessibilità e per il SEO, perciò noi come sviluppatori dobbiamo sempre tenerci aggiornati sui tag più recenti e coerenti.</p>
+                    
+                    <h3>ATTENZIONE!</h3>
+                    <p>I tag potrebbero essere classificati come “Deprecati”, i quali non sono più supportati dalle nuove versioni dei browser, per diversi motivi per diversi motivi legati alla loro semanticità, o per via di formattazioni ormai obsolete.</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- /fourth section -->
+
+        <div class="wave rotated">
+            <img src="./img/wave.svg" alt="">
+        </div>
+
+        <!-- fifth section -->
+        <section class="fifth-section" id="fifthsection">
+            <div class="fifth-section-content container">
+                <h2>Principali tag semantici</h2>
+                <h3>Oltre ai classici che già utilizziamo esistono altri tag semantici ognuno con il suo peso ed importanza!</h3>
+            </div>
+            <div class="fifth-section-ex container">
+                <div class="fifth-section-left">
+                    <h4>Figure &lt;figure&gt;</h4>
+                    <img src="./img/2024-03-19_15h26_31.png" alt="">
+                </div>
+                <div class="fifth-section-right">
+                    <h4>Description list &lt;dl&gt;</h4>
+                    <img src="./img/2024-03-19_15h28_41.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- /fifth section -->
+    </main>
+
+    <footer class="footer">
+        <p>Questa presentazione è stata offerta dal "team 9": <br>Walter - Ryam - Matteo - Giuseppe</p>
+    </footer>
+
+</body>
+</html>
