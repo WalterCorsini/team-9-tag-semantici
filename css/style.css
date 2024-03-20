@@ -287,3 +287,8 @@ h1 {
     padding: 50px 0;
     color: white;
 }
+
+footer a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;    
+}
